@@ -103,6 +103,7 @@ const addRole = () => {
                 console.log(data)
                 const departmentId = data.department.split(". ")[0]
                 console.log(departmentId)
+                promptUser();
             })
     })
 }
